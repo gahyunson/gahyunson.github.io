@@ -1,1 +1,1 @@
-[gahyun(https://gahyunson.github.io/)]
+[GahyunSon Blog(https://gahyunson.github.io/)]

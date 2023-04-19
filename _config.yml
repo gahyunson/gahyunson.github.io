@@ -2,6 +2,8 @@ title: Record of the Journey
 author: gahyunson
 email: gahyun.son6@gmail.com
 description: "I'm interested in Information. I wanna know how to create information from data."
+url: "https://gahyunson.github.io/"
+baseurl: ""
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
