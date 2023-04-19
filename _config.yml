@@ -3,7 +3,7 @@ author: gahyunson
 email: gahyun.son6@gmail.com
 description: "I'm interested in Information. I wanna know how to create information from data."
 url: "https://gahyunson.github.io/"
-baseurl:
+baseurl: ""
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -24,6 +24,7 @@ plainwhite:
     - page
     - post
   # generate social links in footer
+
   social_links:
     #twitter: samarsault
     github:  gahyunson
@@ -53,6 +54,7 @@ plainwhite:
 
 # Build settings
 theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
   - jekyll-seo-tag
