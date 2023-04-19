@@ -1,0 +1,278 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red129\green95\blue3;\red255\green255\blue255;\red0\green0\blue0;
+\red196\green26\blue22;\red14\green14\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c50580\c37140\c1210;\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c0\c0\c0\c85000;
+\csgenericrgb\c77000\c10200\c8600;\csgenericrgb\c5500\c5500\c100000;\csgenericrgb\c0\c0\c0\c70000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf2 \cb3 #\cf4  plainwhite
+\fs24 \
+\
+Simplistic jekyll portfolio-style theme for writers.\
+\
+\cf2 **
+\f1\b \cf4 Demo
+\f0\b0 \cf2 **\cf4 : \cf2 [\cf5 samarsault.com\cf2 ](\cf6 https://samarsault.com\cf2 )\cf4 \
+\
+\cf5 !\cf2 [\cf5 plainwhite theme preview\cf2 ]\cf5 (/screenshot.png)\cf4 \
+\
+
+\fs30 \cf2 ##\cf4  Installation on Github Pages
+\fs24 \
+\
+Add this line to your site's \cf2 `\cf7 _config.yml\cf2 `\cf4 :\
+\
+\cf7 ```yaml\cf4 \
+\cf7 remote_theme: samarsault/plainwhite-jekyll\cf4 \
+\cf7 ```\cf4 \
+\
+
+\fs30 \cf2 ##\cf4  Installation
+\fs24 \
+\
+Add this line to your Jekyll site's \cf2 `\cf7 Gemfile\cf2 `\cf4 :\
+\
+\cf7 ```ruby\cf4 \
+\cf7 gem "plainwhite"\cf4 \
+\cf7 ```\cf4 \
+\
+And add this line to your Jekyll site's \cf2 `\cf7 _config.yml\cf2 `\cf4 :\
+\
+\cf7 ```yaml\cf4 \
+\cf7 theme: plainwhite\cf4 \
+\cf7 ```\cf4 \
+\
+And then execute:\
+\
+\cf7     $ bundle\cf4 \
+\
+Or install it yourself as:\
+\
+\cf7     $ gem install plainwhite\cf4 \
+\
+
+\fs30 \cf2 ##\cf4  Usage
+\fs24 \
+\
+The "plainwhite" key in \\_config.yml is used to customize the theme data.\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   name: Adam Denisov\cf4 \
+\cf7   tagline: Developer. Designer\cf4 \
+\cf7   date_format: "%b %-d, %Y"\cf4 \
+\
+\cf7   social_links:\cf4 \
+\cf7     twitter: samarsault\cf4 \
+\cf7     github: samarsault\cf4 \
+\cf7     linkedIn: in/samarsault # format: locale/username\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Updating Placeholder Image
+\f0\b0 \cf2 **\cf4 \
+\
+The placeholder portfolio image can be replaced by the desired image by placing it as \cf2 `\cf7 assets/portfolio.png\cf2 `\cf4  in your jekyll website, or by changing the following line in \cf2 `\cf7 _config.yaml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   portfolio_image:  "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)\cf4 \
+\cf7 ```\cf4 \
+\
+To use a different image for dark mode, e.g. with different colors that work better in dark mode, add a \cf2 `\cf7 portfolio_image_dark\cf2 `\cf4  entry in addition to the \cf2 `\cf7 portfolio_image\cf2 `\cf4 .\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   portfolio_image:      "assets/portfolio.png"\cf4 \
+\cf7   portfolio_image_dark: "assets/portfolio_dark.png"\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Comments (Disqus)
+\f0\b0 \cf2 **\cf4 \
+\
+Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in \cf2 `\cf7 _config.yml\cf2 `\cf4 . For example,\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   disqus_shortname: games\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Google Analytics
+\f0\b0 \cf2 **\cf4 \
+\
+It can be enabled by specifying your analytics id under plainwhite in \cf2 `\cf7 _config.yml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   analytics_id: "< YOUR ID >"\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Sitemap
+\f0\b0 \cf2 **\cf4 \
+\
+It can be toggled by the following line to under plainwhite in \cf2 `\cf7 _config.yml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   sitemap: true\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Excerpts
+\f0\b0 \cf2 **\cf4 \
+\
+Excerpts can be enabled by adding the following line to your \cf2 `\cf7 _config.yml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 show_excerpts: true\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Layouts
+\f0\b0 \cf2 **\cf4 \
+\
+\cf2 - \cf4 Home\
+\cf2 - \cf4 Page\
+\cf2 - \cf4 Post\
+\
+\cf2 **
+\f1\b \cf4 Navigation
+\f0\b0 \cf2 **\cf4 \
+\
+Navigation can be enabled by adding the following line to your \cf2 `\cf7 _config.yml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   navigation:\cf4 \
+\cf7     - title: My Work\cf4 \
+\cf7       url: "/my-work"\cf4 \
+\cf7     - title: Resume\cf4 \
+\cf7       url: "/resume"\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Mobile
+\f0\b0 \cf2 **\cf4 \
+\
+By default, Plainwhite places the sidebar (logo, name, tagline etc.) above the content on mobile (narrow screens).\
+To condense it (moving some things to the bottom of the page and making the rest smaller) so it takes up less space, add the following to your \cf2 `\cf7 _config.yml\cf2 `\cf4 :\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   condensed_mobile:\cf4 \
+\cf7     - home\cf4 \
+\cf7     - post\cf4 \
+\cf7     - page\cf4 \
+\cf7 ```\cf4 \
+\
+This chooses which layouts (types of page) should be condensed on mobile screens. E.g. if you want everything but the landing page to be condensed, remove \cf2 `\cf7 home\cf2 `\cf4  from the list. This option does not affect rendering on wider screens.\
+\
+\cf2 **
+\f1\b \cf4 Dark mode
+\f0\b0 \cf2 **\cf4 \
+\
+Dark mode can be enabled by setting the \cf2 `\cf7 dark_mode\cf2 `\cf4  flag in your \cf2 `\cf7 _config.yml\cf2 `\cf4 \
+\
+The website will check the OS preferred color scheme and set the theme accordingly, the preference will then be saved in a cookie\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   dark_mode: true\cf4 \
+\cf7 ```\cf4 \
+\
+\cf5 !\cf2 [\cf5 plainwhite dark theme previe\cf2 ]\cf5 (/dark.png)\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Multiline tagline
+\f0\b0 \cf2 **\cf4 \
+\
+Tagline can be multiline in this way\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   tagline: |\cf4 \
+\cf7   First Line. \cf4 \
+\
+\cf7   Second Line. \cf4 \
+\
+\cf7   Third Line.\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Search-bar
+\f0\b0 \cf2 **\cf4 \
+\
+Search-bar can be enabled by adding the following line to \cf2 `\cf7 config.yml\cf2 `\cf4 \
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   search: true\cf4 \
+\cf7 ```\cf4 \
+\
+Search is powered by \cf2 [\cf5 Simple-Jekyll-Search\cf2 ](\cf6 https://github.com/christian-fei/Simple-Jekyll-Search\cf2 )\cf4  Jekyll plugin. A \cf2 `\cf7 search.json\cf2 `\cf4  containing post meta and contents will be generated in site root folder. Plugin JavaScript will then match for posts based on user input. More info and \cf2 `\cf7 search.json\cf2 `\cf4  customization documentation can be found in plugin repository.\
+\
+\cf2 **
+\f1\b \cf4 Base URL
+\f0\b0 \cf2 **\cf4 \
+\
+You can specify a custom base URL (eg. example.com/blog/) by adding the following line to \cf2 `\cf7 _config.yaml\cf2 `\cf4 . Note that there is no trailing slash on the URL.\
+\
+\cf7 ```yaml\cf4 \
+\cf7 baseurl: "/blog"\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 **
+\f1\b \cf4 Language
+\f0\b0 \cf2 **\cf4 \
+\
+You can set the \cf2 `\cf7 lang\cf2 `\cf4  attribute of the \cf2 `\cf7 <html>\cf2 `\cf4  tag on your pages by changing the following line in \cf2 `\cf7 _config.yml\cf2 `\cf4 :\
+\
+\cf7 ```yaml\cf4 \
+\cf7 plainwhite:\cf4 \
+\cf7   html_lang: "en"\cf4 \
+\cf7 ```\cf4 \
+\
+\cf2 [\cf5 See here for a full list of available language codes\cf2 ](\cf6 https://www.w3schools.com/tags/ref_country_codes.asp\cf2 )\cf4 \
+\
+
+\fs30 \cf2 ##\cf4  Contributing
+\fs24 \
+\
+Bug reports and pull requests are welcome on GitHub at \cf6 https://github.com/samarsault/plainwhite-jekyll.\cf4  This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the \cf2 [\cf5 Contributor Covenant\cf2 ](\cf6 http://contributor-covenant.org\cf2 )\cf4  code of conduct.\
+\
+
+\fs30 \cf2 ##\cf4  Development
+\fs24 \
+\
+To set up your environment to develop this theme, run \cf2 `\cf7 bundle install\cf2 `\cf4 .\
+\
+Your theme is setup just like a normal Jekyll site! To test your theme, run \cf2 `\cf7 bundle exec jekyll serve\cf2 `\cf4  and open your browser at \cf2 `\cf7 http://localhost:4000\cf2 `\cf4 . This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.\
+\
+When your theme is released, only the files in \cf2 `\cf7 _layouts\cf2 `\cf4 , \cf2 `\cf7 _includes\cf2 `\cf4 , \cf2 `\cf7 _sass\cf2 `\cf4  and \cf2 `\cf7 assets\cf2 `\cf4  tracked with Git will be bundled.\
+To add a custom directory to your theme-gem, please edit the regexp in \cf2 `\cf7 plainwhite.gemspec\cf2 `\cf4  accordingly.\
+\
+
+\fs30 \cf2 ##\cf4  Donation
+\fs24 \
+If this project help you reduce time to develop, you can give me a cup of coffee :) \
+\
+\cf2 [\cf5 ![paypal\cf2 ](\cf6 https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\cf2 )\cf4 ](\cf6 https://paypal.me/thelehhman\cf4 )\
+\
+
+\fs30 \cf2 ##\cf4  License
+\fs24 \
+\
+The theme is available as open source under the terms of the \cf2 [\cf5 MIT License\cf2 ](\cf6 https://opensource.org/licenses/MIT\cf2 )\cf4 .\
+\
+
+\fs30 \cf2 ##\cf4  More themes
+\fs24 \
+\
+\cf2 - \cf4 [Texture](\cf6 https://github.com/samarsault/texture\cf4 )\
+}
