@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "github-pages can't satisfy your Gemfile's dependencies"
-date:   2023-04-21 15:27:20 +0530
+date:   2023-04-20 15:27:20 +0530
 categories: GitHub
 ---
 
@@ -30,3 +30,6 @@ You can't run both(theme, remote_theme). Have to choose one.
 
 If, you want to run on Local. have to choose 'theme'. 'remote_theme' must be comment.
 elif, you want to run on gitpages. have to choose 'remote_theme'. 'theme' must be comment.
+
+If you solve it and git push, 
+that need some time for deployment. you just wait unitl deploy.
