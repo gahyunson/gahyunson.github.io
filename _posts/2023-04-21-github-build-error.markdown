@@ -19,7 +19,7 @@ You have to check gitblog's repository.
 
 My Error message was "Error:  The plainwhite theme could not be found."
 
-My problem : doesn't work on gitpages. But It worked at Local.
+My problem : doesn't work on gitpages. But It worked at Local.    
 Solution : The 'theme' code line change to comment in _configure.yml. 
 
 ```
@@ -28,8 +28,11 @@ remote_theme: wrote/plainwhite
 ```
 You can't run both(theme, remote_theme). Have to choose one.
 
-If, you want to run on Local. have to choose 'theme'. 'remote_theme' must be comment.
-elif, you want to run on gitpages. have to choose 'remote_theme'. 'theme' must be comment.
 
-If you solve it and git push, 
+If, you want to run on Local:    
+    have to choose 'theme'. 'remote_theme' must be comment.    
+elif, you want to run on gitpages:    
+    have to choose 'remote_theme'. 'theme' must be comment.
+
+If you solve it and git push,    
 that need some time for deployment. you just wait unitl deploy.
