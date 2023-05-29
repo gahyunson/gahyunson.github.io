@@ -20,3 +20,4 @@ It worked when I removed characters.
 `"mongodb+srv://username:password@cluster0.btzwq0y.mongodb.net/?retryWrites=true&w=majority";`
 
 
+If there were other problems. You can check NodeJS version in MongoDB with your local NodeJS version.
