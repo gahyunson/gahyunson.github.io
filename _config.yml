@@ -1,7 +1,7 @@
 title: Record of the Journey
 author: gahyunson
 email: gahyun.son6@gmail.com
-description: "I'm interested in Information. I wanna know how to create information from data."
+description: "HELLO WORLD!"
 url: "https://gahyunson.github.io/"
 baseurl: ""
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Gahyun Son
-  tagline: Data, ML/AI, Computer Science
+  tagline: Backend Node.js ML Python
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
