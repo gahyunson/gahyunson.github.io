@@ -1,7 +1,7 @@
 title: Record of the Journey
 author: gahyunson
 email: gahyun.son6@gmail.com
-description: "HELLO WORLD!"
+description: "HELLO MY WORLD!"
 url: "https://gahyunson.github.io/"
 baseurl: ""
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Gahyun Son
-  tagline: Backend Node.js ML Python
+  tagline: Python TensorFlow \n JavaScript Node.js
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar

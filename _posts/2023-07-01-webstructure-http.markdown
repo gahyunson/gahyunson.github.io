@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web structure, HTTP, ..."
-date:   2023-07-01
+date:   2023-06-30
 categories: HTTP WEB
 ---
 ## Web Structure
