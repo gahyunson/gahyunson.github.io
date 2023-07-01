@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web structure, HTTP, ..."
-date:   2023-06-30
+date:   2023-07-01
 categories: HTTP WEB
 ---
 ## Web Structure
@@ -59,5 +59,3 @@ HTML resource 통신
 - POST → 양방향 상호작용 → **상태전이** 생김 = 기억을 해야함 → Client = cookie , Server = DB
 - 원격지 사용자 입력(ID, PASSWORD…) → Was 처리 → DB에서 데이터 확인 
 → found / not found → Hi! Gahyun! / Who are you?
-
-![0701](/Users/gahyunson/Work/GahyunSon.github.io/assets/images/0701.png)
